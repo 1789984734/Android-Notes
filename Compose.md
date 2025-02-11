@@ -31,3 +31,4 @@ val showButton by remember {
     }
 }
 ```
+3. 使用延迟列表时，注意要添加key在参数列表里，这会让延迟列表知道那些item在移动，并且只重组那些移动的item，从而提升性能。
